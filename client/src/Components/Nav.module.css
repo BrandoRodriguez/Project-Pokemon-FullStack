@@ -1,0 +1,19 @@
+.ctn_nav{
+    display: flex; 
+    align-items: center; 
+    padding-bottom: 35px; 
+    gap: 10px;
+    justify-content: center;
+}
+
+.logo{
+    filter: drop-shadow(2px 2px 2px rgb(68, 1, 19, .2));
+    width: 150px;
+}
+
+/* @media (min-width: 768px) {
+    .ctn_nav{
+        justify-content: start;
+    }
+
+} */

@@ -1,0 +1,76 @@
+body{
+    font-family: "GT-Walsheim"
+}
+
+    address,
+    blockquote,
+    body,
+    button,
+    code,
+    dd,
+    dl,
+    dt,
+    fieldset,
+    form,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hr,
+    html,
+    input,
+    legend,
+    li,
+    ol,
+    p,
+    pre,
+    table,
+    td,
+    textarea,
+    th,
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    *,
+    :after,
+    :before {
+        box-sizing: border-box;
+    }
+
+    img,
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+@font-face {
+    font-display: swap;
+    font-family: "GT-Walsheim";
+    src: url(./assets/fonts/GT-Walsheim-Regular.woff2), url(./assets/fonts/GT-Walsheim-Regular.woff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "GT-Walsheim";
+    src: url(./assets/fonts/GT-Walsheim-Medium.woff2), url(./assets/fonts/GT-Walsheim-Medium.woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "GT-Walsheim";
+    src: url(./assets/fonts/GT-Walsheim-Bold.woff2), url(./assets/fonts/GT-Walsheim-Bold.woff);
+    font-weight: 700;
+}

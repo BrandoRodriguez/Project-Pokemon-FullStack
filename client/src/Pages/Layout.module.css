@@ -1,0 +1,8 @@
+.column_ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-gap: 17px;
+    gap: 17px;
+    list-style: none;
+    padding: 5%;
+}

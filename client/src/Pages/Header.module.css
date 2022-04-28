@@ -1,0 +1,36 @@
+.header{
+    padding-top: 60px; 
+    border-radius: 0 0 20px 20px; 
+    position: relative; 
+    overflow: hidden;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header::before{
+    content: "";
+    background-image: url(../assets/images/Pokeball.svg);
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    top: -80px;
+    right: -50px;
+    background-position: top right;
+}
+
+.ctn_filter{
+    display: block;
+}
+
+@media (min-width: 768px) {
+
+    .ctn_filter{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header::before{
+        height: 100%;
+    }
+}
